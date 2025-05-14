@@ -9,6 +9,8 @@ function Test10() {
 
   return (
     // Your code here
+
+    <>{isAdmin && <h2>Admin Panel</h2>}</>
   );
 }
 
